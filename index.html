@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Banco Demo Cloud</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Banco Demo Cloud</h1>
+    <p class="tagline">Sitio de demostración (datos ficticios, sin valor real)</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Productos</h2>
+      <ul>
+        <li>Cuenta Corriente Cloud — Nº 001-987654321</li>
+        <li>Tarjeta Crédito Virtual — 4567 8910 2345 6789 (expira 12/29, CVV 123)</li>
+        <li>Préstamo Simulado — Nº 2025-CL-001</li>
+      </ul>
+      <p class="note">* Esta información es <strong>solo para demostración</strong>. No corresponde a una institución financiera real.</p>
+    </section>
+
+    <section class="card">
+      <h2>Operaciones de ejemplo (no funcionales)</h2>
+      <ul class="endpoints">
+        <li><code>GET /api/accounts/{accountId}</code></li>
+        <li><code>POST /api/transfer</code></li>
+        <li><code>GET /api/cards/{cardId}</code></li>
+      </ul>
+      <button onclick="alert('Demo: operación simulada')">Simular transferencia</button>
+    </section>
+
+    <section class="card">
+      <h2>Contacto</h2>
+      <p>Email: contacto@bancodemocloud.com (ficticio)</p>
+      <p>© 2025 Banco Demo Cloud — Entorno de prueba.</p>
+    </section>
+  </main>
+</body>
+</html>
